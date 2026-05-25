@@ -1,0 +1,32 @@
+aid: signifyd
+name: Signifyd
+reviewed: '2026-05-25'
+reviewer: Kin Lane
+tier: 1
+type: company
+summary: |
+  Signifyd is a tier-1 ecommerce fraud and chargeback protection provider with a mature, public,
+  REST + webhook developer surface. The Commerce Protection Platform exposes Checkout, Sale,
+  Transaction, Decisions, Returns, Sales Tax, Feedback, and Account Protection APIs across v2 and v3,
+  documented at developer.signifyd.com. Auth is API-key based; webhooks are signed with HMAC-SHA256.
+  Native integrations exist for Shopify, BigCommerce, Magento/Adobe Commerce, Salesforce Commerce
+  Cloud, SAP Commerce, commercetools, Stripe, Adyen, and Braintree. Open source includes the PHP
+  library and Magento 1/2 + SFCC cartridges. No public OpenAPI spec is published — the legacy docs
+  repo uses API Blueprint — so machine-readable artifacts must be hand-curated against the docs.
+strengths:
+- Real-time fraud/chargeback decisions with a 100% financial guarantee on approved orders
+- Merchant consortium covering ~98% of US online shoppers powers elastic linking
+- Clear pre-auth (Checkout) vs post-auth (Sale + Transaction) integration patterns
+- Comprehensive webhook surface with HMAC-SHA256 signing
+- Adjacent products (Returns, Sales Tax, Account Protection, Payments Optimization) share the same API surface
+- Production PHP SDK plus first-party Magento and SFCC integrations on GitHub
+gaps:
+- No published OpenAPI/AsyncAPI specifications; only legacy API Blueprint exists in github.com/signifyd/docs
+- No public pricing — fully sales-led custom quotes
+- Most language SDKs (Node, Python, Ruby, Java, .NET) are not published by Signifyd directly
+- Sandbox/staging environment access requires an existing merchant relationship
+notes: |
+  Signifyd was founded in 2011 by ex-PayPal risk specialists Raj Ramanand and Mike Liberty, is
+  headquartered in San Jose, California, and has raised at least $400M through a 2021 Series E that
+  valued the company at $1.34B. Repeated #1 ranking from Digital Commerce 360 for ecommerce
+  protection among the top 1000 US retailers.
