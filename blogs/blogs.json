@@ -2,13 +2,20 @@
   "repo": "signifyd",
   "feeds": [
     {
+      "source": "https://www.signifyd.com/feed/",
+      "feed_url": "https://www.signifyd.com/feed/",
+      "title": "",
+      "saved": 0,
+      "method": "feed"
+    },
+    {
       "source": "https://www.signifyd.com/blog/",
       "feed_url": "https://www.signifyd.com/feed/",
       "title": "",
-      "saved": 1,
+      "saved": 0,
       "method": "discovered"
     }
   ],
-  "post_count": 1,
-  "fetched": "2026-06-01T23:35:02Z"
+  "post_count": 12,
+  "fetched": "2026-06-14T20:42:17Z"
 }
