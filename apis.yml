@@ -209,7 +209,7 @@ common:
   type: GitHubOrganization
 - url: https://github.com/signifyd/php
   name: PHP Library
-  type: SDK
+  type: SDKs
 - url: https://github.com/signifyd/magento2
   name: Magento 2 Extension
   type: Integrations

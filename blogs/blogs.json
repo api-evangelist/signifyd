@@ -5,7 +5,7 @@
       "source": "https://www.signifyd.com/feed/",
       "feed_url": "https://www.signifyd.com/feed/",
       "title": "",
-      "saved": 0,
+      "saved": 1,
       "method": "feed"
     },
     {
@@ -16,6 +16,6 @@
       "method": "discovered"
     }
   ],
-  "post_count": 12,
-  "fetched": "2026-06-14T20:42:17Z"
+  "post_count": 13,
+  "fetched": "2026-06-27T12:03:07Z"
 }
