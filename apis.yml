@@ -150,6 +150,10 @@ apis:
     and SIGNIFYD_REVIEW checkpoints. Each delivery is signed with an HMAC-SHA256 signature in the
     SIGNIFYD-SEC-HMAC-SHA256 header, keyed by the team's API key, so receivers can verify authenticity.
 common:
+- type: VulnerabilityDisclosure
+  url: security/signifyd-vulnerability-disclosure.yml
+- type: DomainSecurity
+  url: security/signifyd-domain-security.yml
 - url: https://www.signifyd.com
   type: Portal
 - url: https://developer.signifyd.com/
