@@ -12,6 +12,17 @@ tags:
 - Fraud
 - Fraud Prevention
 - Chargebacks
+- E-Commerce
+- Payments
+- Risk
+- Machine-Learning
+- Commerce Protection
+- Account Protection
+- Returns
+tags_raw:
+- Fraud
+- Fraud Prevention
+- Chargebacks
 - Ecommerce
 - Payments
 - Risk
@@ -40,6 +51,12 @@ apis:
   - Sale
   - Checkout
   - Fraud
+  - Order
+  - E-Commerce
+  tags_raw:
+  - Sale
+  - Checkout
+  - Fraud
   - Orders
   - Ecommerce
   humanURL: https://developer.signifyd.com/main/reference
@@ -56,6 +73,11 @@ apis:
 - aid: signifyd:signifyd-transaction-api
   name: Signifyd Transaction API
   tags:
+  - Transaction
+  - Payments
+  - Fraud
+  - E-Commerce
+  tags_raw:
   - Transactions
   - Payments
   - Fraud
@@ -86,6 +108,11 @@ apis:
 - aid: signifyd:signifyd-feedback-api
   name: Signifyd Feedback API
   tags:
+  - Feedback
+  - Fraud
+  - Machine-Learning
+  - Chargebacks
+  tags_raw:
   - Feedback
   - Fraud
   - Machine Learning
@@ -120,6 +147,11 @@ apis:
   - Sales Tax
   - Tax
   - Compliance
+  - E-Commerce
+  tags_raw:
+  - Sales Tax
+  - Tax
+  - Compliance
   - Ecommerce
   humanURL: https://developer.signifyd.com/main/reference
   properties:
@@ -146,6 +178,11 @@ apis:
 - aid: signifyd:signifyd-webhooks-api
   name: Signifyd Webhooks API
   tags:
+  - Webhook
+  - Event
+  - Decisions
+  - Async
+  tags_raw:
   - Webhooks
   - Events
   - Decisions
