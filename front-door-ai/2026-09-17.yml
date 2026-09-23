@@ -1,0 +1,29 @@
+# Front Door AI Index — signifyd — 2026-09-17
+# AI vocabulary counted on the provider's root page. Generated; do not edit.
+# `score` is null unless ownership is `own` — see front_door_ai.py.
+front_door_ai:
+  slug: signifyd
+  lexicon_version: '1.0'
+  probed_at: '2026-09-17'
+  host: www.signifyd.com
+  final_host: www.signifyd.com
+  ownership: own
+  owner: signifyd
+  shares_host_with: null
+  inherited_from: null
+  verdict: scored
+  score: 6
+  host_score: 6
+  density: 4.98
+  words: 1206
+  tiers:
+    agentic: 3
+    core: 3
+    model: 0
+  ambiguous: 5
+  top_terms:
+    intelligence: 4
+    agentic: 3
+    AI: 2
+    automation: 1
+    machine learning: 1
