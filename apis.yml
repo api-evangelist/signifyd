@@ -9,13 +9,12 @@ description: Signifyd is an ecommerce fraud prevention, chargeback protection, a
   scripts and Android/iOS SDKs. Signifyd financially guarantees approved orders against chargebacks and
   offers Account Protection, Payments Optimization, and Return Abuse Prevention as adjacent products.
 tags:
-- Fraud
 - Fraud Prevention
 - Chargebacks
 - E-Commerce
 - Payments
-- Risk
-- Machine-Learning
+- Risk Management
+- Machine Learning
 - Commerce Protection
 - Account Protection
 - Returns
@@ -30,6 +29,7 @@ tags_raw:
 - Commerce Protection
 - Account Protection
 - Returns
+- Machine-Learning
 kind: contract
 deliveryModel:
   model: saas
@@ -61,7 +61,7 @@ apis:
   tags:
   - Sale
   - Checkout
-  - Fraud
+  - Fraud Prevention
   - Order
   - E-Commerce
   tags_raw:
@@ -86,7 +86,7 @@ apis:
   tags:
   - Transaction
   - Payments
-  - Fraud
+  - Fraud Prevention
   - E-Commerce
   tags_raw:
   - Transactions
@@ -105,6 +105,11 @@ apis:
   name: Signifyd Decisions API
   tags:
   - Decisions
+  - Fraud Prevention
+  - Cases
+  - Risk Management
+  tags_raw:
+  - Decisions
   - Fraud
   - Cases
   - Risk
@@ -120,14 +125,15 @@ apis:
   name: Signifyd Feedback API
   tags:
   - Feedback
-  - Fraud
-  - Machine-Learning
+  - Fraud Prevention
+  - Machine Learning
   - Chargebacks
   tags_raw:
   - Feedback
   - Fraud
   - Machine Learning
   - Chargebacks
+  - Machine-Learning
   humanURL: https://developer.signifyd.com/main/docs/feedback-api-overview
   properties:
   - url: https://developer.signifyd.com/main/docs/feedback-api-overview
@@ -141,6 +147,11 @@ apis:
 - aid: signifyd:signifyd-returns-api
   name: Signifyd Returns API
   tags:
+  - Returns
+  - Return Abuse
+  - Fraud Prevention
+  - Refunds
+  tags_raw:
   - Returns
   - Return Abuse
   - Fraud
@@ -174,6 +185,11 @@ apis:
 - aid: signifyd:signifyd-account-protection-api
   name: Signifyd Account Protection API
   tags:
+  - Account Protection
+  - Identity
+  - Fraud Prevention
+  - Authentication
+  tags_raw:
   - Account Protection
   - Identity
   - Fraud
