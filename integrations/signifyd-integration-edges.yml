@@ -1,0 +1,16 @@
+generated: '2026-10-12'
+method: none
+source:
+- https://zapier.com/apps/signifyd/integrations
+- https://n8n.io/integrations/signifyd/
+- https://composio.dev/toolkits/signifyd
+- https://monid.ai/tools/signifyd
+checked:
+- https://composio.dev/toolkits/signifyd
+- https://monid.ai/tools/signifyd
+- https://n8n.io/integrations/signifyd/
+- https://zapier.com/apps/signifyd/integrations
+summary: null
+marketplace_apps: []
+edges: []
+templates: []
