@@ -1,5 +1,5 @@
 generated: '2026-10-12'
-method: none
+method: searched
 source:
 - https://zapier.com/apps/signifyd/integrations
 - https://n8n.io/integrations/signifyd/
@@ -10,7 +10,44 @@ checked:
 - https://monid.ai/tools/signifyd
 - https://n8n.io/integrations/signifyd/
 - https://zapier.com/apps/signifyd/integrations
+- shopify/integrations/shopify-integration-edges.yml
+- stripe/integrations/stripe-integration-edges.yml
 summary: null
 marketplace_apps: []
-edges: []
+edges:
+- partner_name: Shopify (own)
+  partner: shopify
+  partner_match: mirror
+  mirror_match: domain
+  type: marketplace
+  relationship: platform-app
+  direction: third-party
+  channel: partner-built
+  marketplace: own
+  evidence: https://apps.shopify.com/signifyd
+  mirror_of: shopify/integrations/shopify-integration-edges.yml
+  apps:
+  - Signifyd
+  listing_count: 1
+  detected: '2026-10-15'
+  detected_by: mirror-platform-listings.py
+  publisher_verified:
+  - Built for Shopify
+- partner_name: Stripe (own)
+  partner: stripe
+  partner_match: mirror
+  mirror_match: domain
+  type: marketplace
+  relationship: platform-app
+  direction: third-party
+  channel: partner-built
+  marketplace: own
+  evidence: https://marketplace.stripe.com/apps/signifyd
+  mirror_of: stripe/integrations/stripe-integration-edges.yml
+  apps:
+  - Signifyd
+  listing_count: 1
+  detected: '2026-10-15'
+  detected_by: mirror-platform-listings.py
+  category: fraud
 templates: []
