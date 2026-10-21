@@ -12,6 +12,7 @@ checked:
 - https://zapier.com/apps/signifyd/integrations
 - shopify/integrations/shopify-integration-edges.yml
 - stripe/integrations/stripe-integration-edges.yml
+- salesforce-commerce-cloud/integrations/salesforce-commerce-cloud-integration-edges.yml
 summary: null
 marketplace_apps: []
 edges:
@@ -50,4 +51,21 @@ edges:
   detected: '2026-10-15'
   detected_by: mirror-platform-listings.py
   category: fraud
+- partner_name: Salesforce Commerce Cloud (own)
+  partner: salesforce-commerce-cloud
+  partner_match: mirror
+  mirror_match: domain
+  type: marketplace
+  relationship: platform-app
+  direction: third-party
+  channel: partner-built
+  marketplace: own
+  evidence: https://appexchange.salesforce.com/appxListingDetail?listingId=a0N4V00000DZSP2UAP
+  mirror_of: salesforce-commerce-cloud/integrations/salesforce-commerce-cloud-integration-edges.yml
+  apps:
+  - Signifyd – Commerce Protection Cartridge for B2C Commerce
+  listing_count: 1
+  detected: '2026-10-20'
+  detected_by: mirror-platform-listings.py
+  category: finance, eCommerce, paymentsProcessing
 templates: []
